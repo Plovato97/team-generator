@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
@@ -21,7 +22,7 @@
   },
   "homepage": "https://github.com/Plovato97/team-generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.4",
+    "inquirer": "^8.2.4",
     "jest": "^29.3.1"
   }
 }
