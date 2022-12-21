@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from 'file-system'
 
 function generateHTML(manager) {
     // Create an HTML template using the manager's information and the team members' information

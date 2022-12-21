@@ -5,7 +5,7 @@ import Intern from './lib/intern.js';
 import Engineer from './lib/engineer.js'
 
 import generateHTML from './generateHTML.js'
-
+import fs from 'fs'
 
 inquirer.prompt([
   {
