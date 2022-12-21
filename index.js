@@ -1,5 +1,12 @@
 import inquirer from 'inquirer'
 
+import Manager from './lib/manager.js';
+import Intern from './lib/intern.js';
+import Engineer from './lib/engineer.js'
+
+import generateHTML from './generateHTML.js'
+
+
 inquirer.prompt([
   {
     name: 'name',
@@ -44,7 +51,7 @@ function showMenu(manager) {
         addIntern(manager);
         break;
       case 'Finish building team':
-        generateHTML(manager);
+        generateTeam(manager);
         break;
     }
   });
@@ -117,3 +124,8 @@ function addEngineer(manager) {
       showMenu(manager);
     });
   }
+
+function generateTeam(manager) {
+        generateHTML(manager);
+        console.log('My Team Created');
+      }
